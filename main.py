@@ -2,6 +2,10 @@ import tkinter
 from tkinter import *
 from tkinter import ttk, Frame
 
+import PIL
+from PIL import Image, ImageTk
+import random
+
 # Separando Cores
 
 co0 = "#FFFFFF"  # white / branca
@@ -55,6 +59,8 @@ line.place(x=0, y=95)
 
 # Configurando tela de Game
 
+punch = Button(frame_down, width=50, text='pedra', compound='center', bg=co1, fg=co0, font='Arial 10 bold')
+punch.place(x=15, y=60)
 
 
 # Codigo de atualização da Tela (sempre deixar no final do código)
